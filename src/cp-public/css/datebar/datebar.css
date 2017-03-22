@@ -1,0 +1,42 @@
+.knd-component-progressbar>li {
+    float: left;
+    height: 90px;
+    width: 64px;
+    border-left: 1px solid #C8C8C8;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    background: #fff;
+    list-style-type: none;
+}
+.progressbar-year, .progressbar-week {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: #777;
+}
+.knd-component-progressbar>li>span {
+    display: block;
+}
+.knd-component-progressbar>li>span.progressbar-data {
+    display: inline-block;
+    margin-top: 3px;
+    width: 33px;
+    height: 33px;
+    font: bold 18px/33px '微软雅黑';
+    color: #008F06;
+    border-radius: 30px;
+    background: #60D165;
+}
+.knd-component-progressbar>li.Clsexpired span.progressbar-data {
+    color: #777;
+    background: #E6E6E6;
+}
+.knd-component-progressbar>li.active span.progressbar-data {
+    color: #fff;
+    background: #3C8DDA;
+}
+.knd-progressBar-purple>li.active span.progressbar-data {
+    background: #7B4C82;
+}

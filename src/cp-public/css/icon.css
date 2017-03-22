@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'yd-font-icon';
+    src:url('../font/xs.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'xsimple-icon';
+    /*src: url('../font/cc.woff') format('woff');*/
+    src: url('../font/xsimple.ttf') format('truetype');
+}
+.icon-edit:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A083";
+    margin-right: 4px;
+}
+.icon-see:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A084";
+    margin-right: 4px;
+}
+.icon-search:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A010";
+}
+.icon-store:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A039";
+}
+.icon-wifi:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A052";
+}
+.icon-msg:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A056";
+}
+.icon-remark:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A057";
+}
+.icon-room:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A058";
+}
+.icon-pen:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A059";
+}
+.icon-content:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A060";
+}
+.icon-man:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A061";
+}
+.icon-person:before {
+    font-family: 'yd-font-icon' !important;
+    content: "\A094";
+}
+.icon-filter:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A099";
+}
+
+
+
+/*同事圈图标*/
+.icon-delete:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A116";
+}
+
+.icon-publish:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A092";
+}
+.icon-zan:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A126";
+}
+.icon-have-zan:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A127";
+}
+.icon-add-review:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A089";
+}
+.icon-add-photo:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A027";
+}
+.icon-see-news:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A003";
+}
+
+/**公众号图标***/
+.icon-person-detail:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A100";
+}
+.icon-go-to:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A119";
+}
+.icon-keyboard:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A115";
+}
+.icon-zan-article:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A090";
+}
+.icon-zaned-article:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A135";
+}
+.icon-menu:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A093";
+}
+.icon-add:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A074";
+}
+.icon-search:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A010";
+}
+.icon-see-more:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A122";
+}
+.icon-type-url:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A150";
+}
+.icon-type-picture:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A105";
+}
+/*会议管理*/
+.icon-time:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A123";
+}
+.icon-many-man:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A005";
+}
+.icon-meeting-room:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A110";
+}
+.icon-address:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A151";
+}
+.icon-equipment:before{
+    font-family: 'xsimple-icon' !important;
+    content: "\A050";
+}
+.icon-x:after {
+    content: "*";
+    font-weight: 400;
+    font-size: .8rem;
+    color: #cc0e0b;
+}
+
+/*员工活动*/
+.icon-add-new:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A025";
+}
+
+/*日程管理*/
+.icon-others-schedule:before {
+    font-family: 'xsimple-icon' !important;
+    content: "\A017";
+}
+
+
+
+
+
+
+
+

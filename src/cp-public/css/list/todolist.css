@@ -1,0 +1,94 @@
+/*用于缩小列表中item-subtitle字体大小*/
+.list-block .item-subtitle{
+    /*font-size: 0.65rem;*/
+}
+/*目前用于带图片列表样式*/
+.width40{
+    width: 40px;
+}
+.todolist  .item-center{
+	text-align: center;
+	line-height: 1.2;
+	
+}
+.todolist .item-media{
+	display: block;
+	padding-left: 0.5rem;
+}
+.list-block.todolist .after-btn{
+    border-color: #0894ec;
+    background-color: #0894ec;
+    border-radius: 4px;
+    padding: 1px 6px 0px 6px;
+    color: #fff;
+}
+.todolist .item-time{
+	float: right;
+	color: #777;
+	font-size:0.65rem;
+}
+.todolist .item-type{
+	color: #777;
+	font-size:0.65rem;
+	margin-left: 0.8em;
+}
+.todolist .item-content{
+	padding: 0;
+	color: #777;
+	font-size:0.65rem;
+	min-height: auto;
+}
+.swap-li{
+	overflow: auto;
+}
+.swap-container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.swap-container > a{
+	width: 100vw;
+}
+.swap-container > div{
+	height: inherit;
+	align-self: stretch;
+	text-align: center;
+	color:#fff;
+}
+.item-del-container{
+	width: 60px;
+	height: 100%;
+	background: #f00;
+	line-height: 70px;
+}
+.swap-li-grey{
+	background: #eee;
+}
+.list-block ul li.empty-list {
+    height: 300px;
+    text-align: center;
+    color: #9c9a8f;
+    background-color: #efeff4;
+    padding: 100px 0;
+}
+.list-block ul li.empty-list:before {
+    display: inline-block;
+    content: "";
+    font-size: 2.6em;
+    width: 2.6em;
+    height: 2.6em;
+    background: url(../../images/empty.png) no-repeat;
+    background-size: 2.6em;
+}

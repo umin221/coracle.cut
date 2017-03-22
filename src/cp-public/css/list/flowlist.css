@@ -1,0 +1,59 @@
+/*流程样式*/
+.flow-li .flow-content-block{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.flow-li .bg-red{
+    background-color: #ffa199;
+}
+.flow-li .bg-red>div{
+    background-color: #ff1500;
+}
+.flow-li .bg-blue{
+    background-color: #99beff;
+}
+.flow-li .bg-blue>div{
+    background-color: #2f7bff;
+}
+.flow-list{
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #fff;
+}
+.flow-ul{
+    margin: 0 0 0 20px;
+    padding-left: 20px;
+    list-style: none;
+    border-left: 1px solid #d1d1d1;
+    font-size: 0.6rem;
+}
+.flow-li{
+    padding: 6px 6px 6px 0px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.flow-li:last-child{
+    border-bottom: 0;
+}
+.flow-mark{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 12px;
+    border-radius: 12px;
+    background-color: #ffa199;
+}
+.flow-mark div{
+    margin: 3px auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ff1500;
+}
+.flow-li .list-content{
+    font-size: 0.65rem;
+    color: #444;
+}

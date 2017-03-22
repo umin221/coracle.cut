@@ -1,0 +1,63 @@
+{
+	"news/get-news-list":  {
+	  "status" : true,
+	  "errorCode" : "",
+	  "errorMessage" : "",
+	  "total" : "",
+	  "list" : [ {
+		"id" : 1652,
+		"title" : "测试-推送消息",
+		"hitsNum" : 18,
+		"commentNum" : 1,
+		"cover" : "/uf/news/2016/9/4ed27bc3af184d90b1f4d8d998914303.jpg",
+		"summary" : "1",
+		"pubTime" : "2016-10-26 14:28:00",
+		"isRead" : "0"
+	  }, {
+		"id" : 1201,
+		"title" : "2016年7月预订单追加的683143订金扣取通知",
+		"hitsNum" : 488,
+		"commentNum" : 1,
+		"cover" : "/uf/news/2016/6/65619d0b14974d8d987d5b2cc37e79b8.png",
+		"summary" : "预订单追加683143订金扣取通知",
+		"pubTime" : "2016-07-08 12:13:39",
+		"isRead" : "1"
+	  }, {
+		"id" : 1200,
+		"title" : "战报2016年7月第二期",
+		"hitsNum" : 366,
+		"commentNum" : 0,
+		"cover" : "/uf/news/2016/6/b6972cb8707a49a5b3378a5f9212ff21.png",
+		"summary" : "2016年7月战报",
+		"pubTime" : "2016-07-08 11:52:21",
+		"isRead" : "1"
+	  }, {
+		"id" : 1150,
+		"title" : "战报2016年7月第一期",
+		"hitsNum" : 524,
+		"commentNum" : 0,
+		"cover" : "/uf/news/2016/6/5a1994787d4240d2aa7fa6c5763bc3fb.png",
+		"summary" : "战报2016年7月第一期",
+		"pubTime" : "2016-07-01 15:14:54",
+		"isRead" : "1"
+	  }, {
+		"id" : 1100,
+		"title" : "战报2016年6月第一期（试运行）",
+		"hitsNum" : 506,
+		"commentNum" : 2,
+		"cover" : "/uf/news/2016/5/0d3247582a3946aaae658d8b0dbb66c7.png",
+		"summary" : "6.27-6.28各省区分先门店拜访情况新鲜出炉",
+		"pubTime" : "2016-06-29 09:39:01",
+		"isRead" : "0"
+	  }, {
+		"id" : 1051,
+		"title" : "关于7月份订单审核时间通知",
+		"hitsNum" : 380,
+		"commentNum" : 0,
+		"cover" : "/uf/news/2016/5/a1034cd351ea4aea80b1861fe6486791.png",
+		"summary" : "关于7月份订单审核时间通知",
+		"pubTime" : "2016-06-28 17:23:03",
+		"isRead" : "0"
+	  } ]
+	}
+}

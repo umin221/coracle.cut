@@ -1,0 +1,14 @@
+{
+  "name": "coracle.cut",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "cut"
+  ],
+  "author": "umin <326663876@qq.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+/*用于缩小列表中item-subtitle字体大小*/
+.list-block .item-subtitle{
+    /*font-size: 0.65rem;*/
+}
+/*目前用于带图片列表样式*/
+.width80{
+    width: 80px;
+}
+.list-block.media-list .after-btn{
+    border-color: #0894ec;
+    background-color: #0894ec;
+    border-radius: 4px;
+    padding: 1px 6px 0px 6px;
+    color: #fff;
+}
+.list-block ul li.empty-list {
+    height: 300px;
+    text-align: center;
+    color: #9c9a8f;
+    background-color: #eee;
+    padding: 100px 0;
+}
+.list-block ul li.empty-list:before {
+    display: inline-block;
+    content: "";
+    font-size: 2.6em;
+    width: 2.6em;
+    height: 2.6em;
+    background: url(../../images/empty.png) no-repeat;
+    background-size: 2.6em;
+}

@@ -1,0 +1,33 @@
+header.bar-header{
+    padding-right:0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+header.bar-header .button-link{
+    color: #e60000;
+    font-size: 15px;
+}
+.icon-left:before {
+    content: "\A001";
+    font-family: 'xsimple-icon';
+}
+.bar-header .button-nav.pull-right{
+    margin-right: 0;
+    margin-left:0;
+    padding: 0 0.6rem;
+}
+.title{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+header.bar-header span.icon{
+    font-size: 18px;
+}
+header.bar-header.bar:after{
+    height: 0px;
+}
+.bar .button-nav.pull-left {
+    padding-right: 30px;
+    padding-left: 8px;
+}

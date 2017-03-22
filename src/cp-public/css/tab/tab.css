@@ -1,0 +1,70 @@
+.buttons-tab {
+    z-index: 1;
+}
+.buttons-tab .button.active{
+    color: #d61518;
+    border-color: #d61518;
+}
+.buttons-tab .button{
+    height: 40px;
+    line-height: 30px;
+    padding: 0px;
+    font-size: 13px;
+}
+.buttons-tab .button div{
+    margin: 5px 0px;
+    height: 30px;
+}
+.buttons-tab .button.center div{
+    border-left: 1px solid #ccc;
+}
+
+.buttons-fan {
+    -webkit-align-self: center;
+    align-self: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.buttons-fan .button {
+    color: #5f646e;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+}
+.buttons-fan{
+    border-radius: 26px;
+    border: 2px solid #e60000;
+    background: none;
+}
+.buttons-fan .button{
+    height: 28px;
+    line-height: 30px;
+    padding: 0px;
+    font-size: 13px;
+    color: #e60000;
+}
+.buttons-fan .button.active{
+    color: #fff;
+    background-color: #e60000;
+    border-radius: 20px;
+    border: 0;
+}
+.buttons-fan:after{
+    height: 0;
+}
+
+.out-tab-style {
+    padding: 6px;
+    background-color: #fff;
+}

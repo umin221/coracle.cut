@@ -1,0 +1,38 @@
+/*菜单*/
+.ktc-menu .bar-tab:before {
+    background-color: transparent;
+}
+.bar-nav ~ .ktc-menu {
+    position: relative;
+    z-index: 110;
+    top: 2.2rem;
+    background-color: #fff;
+}
+.ktc-menu .bar {
+    position: relative;
+    height: auto;
+    background-color: #fff;
+    z-index: 10650;
+    padding: 10px 5%;
+}
+.ktc-menu .bar-tab .tab-item {
+    display: inline-table;
+    width: 33%;
+    padding: 10px 0;
+}
+.ktc-menu .bar-tab .tab-item .icon {
+    font-family: inherit !important;
+    height: auto;
+    padding: 0;
+}
+.ktc-menu .bar-tab .tab-item .icon ~ .tab-label {
+    font-size: 0.65rem;
+    color: #898989;
+}
+
+/*遮罩*/
+.preloader-indicator-overlay {
+    opacity: 0.2;
+    background-color: #000;
+    height:1000px;
+}

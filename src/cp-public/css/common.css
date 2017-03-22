@@ -1,0 +1,116 @@
+@import url(icon.css);
+/* sui样式覆盖 start */
+.list-block {
+/* 	margin: 0; */
+	font-size: 0.75rem;
+}
+.list-block .item-after {
+	font-size: 0.7rem;
+}
+.list-block input[type="text"], .list-block input[type="password"], .list-block input[type="search"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block input[type="time"], .list-block input[type="number"], .list-block select, .list-block textarea {
+	font-size: 0.75rem;
+/* 	text-align: right; */
+}
+/* .list-block .item-input { */
+/* 	text-align: right; */
+/* } */
+
+.preloader-indicator-modal {
+    top: 46%;
+    padding: .5rem;
+}
+.preloader-indicator-modal .preloader {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.preloader:after {
+    -webkit-animation: preloader-spin 10s steps(12, end) infinite;
+    animation: preloader-spin 10s steps(12, end) infinite;
+}
+/* sui样式覆盖 end */
+
+/*用于弹出框textarea样式，模仿弹出框sm.css文件input.modal-text-input样式*/
+textarea.modal-text-input {
+    box-sizing: border-box;
+    height: 2.5rem;
+    background: #fff;
+    margin: 0;
+    margin-top: 0.75rem;
+    padding: 0 0.25rem;
+    border: 1px solid #a0a0a0;
+    border-radius: 0.25rem;
+    width: 100%;
+    font-size: 0.7rem;
+    font-family: inherit;
+    display: block;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.disabled,
+[disabled] {
+/*     opacity: .55; */
+    pointer-events: none;
+}
+
+.container {
+    overflow: scroll;
+}
+
+.page, .page-group {
+    background-color: #eee;
+}
+
+.content.expand-transition {
+    top: 2.2rem;
+}
+.bar-nav ~ .content {
+    background-color: #eee;
+}
+
+.list-block li::-webkit-scrollbar {
+    height: 0;
+    mine-height: 0;
+    width: 0;
+    min-width: 0;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+    mine-height: 0;
+    width: 2px;
+    min-width: 2px;
+}
+
+/*无限滚动*/
+.infinite-scroll-preloader {
+    margin: 0.5rem 0 0.2rem 0;
+}
+.infinite-scroll-preloader span {
+    position: relative;
+    display: inline-block;
+    top: -4px;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.infinite-scroll-preloader .preloader {
+    width: 1rem;
+    height: 1rem;
+}
+
+/*轮播图片墙*/
+.swiper-container-horizontal>.swiper-pagination.swiper-pagination-bullets{
+    bottom: 0px;
+}
+.swiper-pagination>.swiper-pagination-bullet{
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    opacity: .5;
+}
+.swiper-pagination>.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fff;
+}
