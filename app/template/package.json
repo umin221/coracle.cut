@@ -1,0 +1,29 @@
+{
+  "name": "yxyd",
+  "version": "1.0.0",
+  "description": "",
+  "author": "umin",
+  "private": true,
+  "scripts": {
+    "start": "gulp compile",
+    "publish": "gulp upload"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "0.26.1",
+    "file-loader": "0.9.0",
+    "gulp": "^3.8.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-zip": "^1.0",
+    "html-loader": "0.4.4",
+    "html-webpack-plugin": "2.24.1",
+    "inquirer": "^0.11.0",
+    "needle": "^1.5.0",
+    "request": "^2.6.0",
+    "style-loader": "0.13.1",
+    "through2": "^1.1.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.14.0"
+  },
+  "license": "ISC"
+}
