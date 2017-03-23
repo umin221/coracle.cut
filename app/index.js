@@ -3,7 +3,6 @@ var generators = require('yeoman-generator');
 module.exports = generators.Base.extend({
     constructor: function () {
         generators.Base.apply(this, arguments);
-        console.log(arguments)
     },
     initializing: function () {
         console.log('initializing 1 just ran');

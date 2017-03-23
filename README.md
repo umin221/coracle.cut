@@ -23,7 +23,7 @@ cd app
 ### 2. Run the generator
 
 ```bash
-yo coracle
+yo cut
 ```
 
 Be patient.. this may take a few minutes.
@@ -48,7 +48,7 @@ use `up` or `down` move,`space` to select,`enter` to commit.
 
 ## warning
 
-Every module should have a `.js`,`.html`,`.css`,`.less` file.Otherwise `gulp build` will not make a folder for this module.Then `gulp upload` will throw a error.
+Yo cut [module name] can quickly add modules
 
 ## License
 
@@ -82,7 +82,7 @@ cd app
 指令
 
 ```bash
-yo coracle
+yo cut
 ```
 
 需要一点时间等待安装成功！
@@ -100,14 +100,13 @@ config.js 为项目的配置文件
 指令
 
 ```bash
-gulp build
+npm start
 ```
 键盘上下选择模块 按空格表示是否选中 回车提交上传。
 
 ## 温馨提醒
 
-每个模块中必须至少包含一个html，css，less，或者js 文件，否则`gulp build` 会生成一个空目录，`gulp upload`会报错。
-请按顺序操作 `gulp build` 先构建 才能使用 `gulp upload` 否则上传会找不到文件报错！
+yo cut [模块名] 可快速新增模块
 
 ## 协议
 
